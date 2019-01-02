@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 08 - Hangman!</title>
+    <script type="text/javascript" src="Lab08.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="Lab08.css">
+</head>
+
+<body>
+    <div class="wordPlaceholder">
+    </div>
+    <div class="content">
+        <div class="inputSection">
+            <input id="LetterInput" maxlength="1" placeholder="Try a letter!" onkeydown="tryTheLetter(event)" />
+        </div>
+        <span id="Message"></span>
+        <div>You still have <span id="Life"></span> times to try</div>
+        <div id="Result"></div>
+        <div class="imageHolder">
+            <img id="HangmanImg" src="images/hangman0.png" />
+        </div>
+        <button id="NewGame" onclick="window.location.reload()">New Game</button>
+    </div>
+</body>
+
+</html>

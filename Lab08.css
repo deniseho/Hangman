@@ -1,0 +1,84 @@
+.wordPlaceholder, .content{
+    text-align: center;
+}
+.wordPlaceholder div{
+    display:inline-block;
+    background: #f1f1f1;
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+    padding: 30px;
+    text-align: center;
+    font-size: 28px;
+}
+.wordPlaceholder div span{
+    visibility: hidden;
+    color: rgb(187, 186, 186);
+}        
+.wordPlaceholder div.matched{
+    background: lightseagreen;
+}
+.wordPlaceholder div.matched span{
+    color: white;
+}
+.wordPlaceholder div.matched span{
+    visibility: visible;
+}
+
+#Message{
+    color: red;
+    display: block;
+}
+
+#LetterInput{
+    width: 145px;
+    height: 50px;
+    font-size: 28px;
+    margin: 20px auto;
+    padding: 0 15px;
+    border: 2px solid lightseagreen;
+}
+#LetterInput.error{
+    border: 2px solid red;
+}
+#LetterInput.disabled{
+    background: #f1f1f1;
+    cursor: not-allowed;
+    border: 2px solid lightgray;
+}
+
+#Life{
+    font-weight: bold;
+    color: lightseagreen;
+    font-size: 22px;
+}
+
+#NewGame{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    background: lightcoral;
+    color: white;
+}
+
+.inputSection{
+    display: inline;
+}
+
+#Result .win{
+    font-size: 30px;
+    font-weight: bold;
+    color: lightcoral;
+}
+#Result .gameOver{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(85, 122, 143);
+}
+
+.imageHolder{
+    margin-top: 50px;
+}
